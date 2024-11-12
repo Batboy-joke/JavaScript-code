@@ -1,0 +1,97 @@
+body{
+    background-color: #ffffff;
+}
+
+h1{
+    color: rgb(20, 20, 20);
+}
+
+:root{
+--main-colour: hsl(0, 23%, 71%); /* blue */
+--secodary-colour: #4c994977; /* green */
+font-size: medium;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+}
+    
+header{
+    background-color: var(--main-colour);
+}
+    
+div{
+    background-color: var(--main-colour);
+}
+
+.container-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    position: relative;
+}
+
+.container-div div {
+    background-color: rgb(50, 50, 143);
+    padding: 20px;
+    color: rgb(131, 19, 19);
+    margin: 10px;
+    text-align: center;
+}
+
+.container-div {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px; */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(1, 1fr) ; /* 2 equal rows */
+    gap: 10px;
+}
+
+.grid-items {
+    background-color: rgb(65, 57, 57);
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+
+.fixeditem{
+    position: fixed;
+    background-color: rgb(173, 159, 159);
+    z-index: 100px;
+}
+
+.fixeditem:hover {
+    background-color: brown;
+    cursor: pointer;
+    color: #8f5858;
+}
+
+.responsive-box{
+    width: 150px;
+    padding: 20px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+
+.Jomiloju{
+    background-color: #8f5858;
+}
+
+.Jomiloju:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: red;
+}
+
+.school:hover {
+    background-color: darkcyan;
+    cursor: pointer;
+    font-size: large;
+}
+

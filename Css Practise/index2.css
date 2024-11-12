@@ -1,0 +1,41 @@
+.container-div {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    background-color: rgb(87, 179, 179);
+    height: 1000px;
+    position: relative;
+}
+
+.container-div {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.container-div {
+    display: grid;
+    /* grid-template-columns: 1fr 3fr 1fr;  
+    grid-gap: 10px; */
+    grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(1, 1fr) ; /* 2 equal rows */
+    gap: 10px;
+}
+
+.gid-item {
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+.fixeditem{
+    position: fixed;
+    background-color: black;
+    z-index: 100px;
+}

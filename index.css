@@ -1,0 +1,57 @@
+.button::before {
+    content: url(arrow-up-line.png) ;
+    color: rgb(29, 29, 48);
+    font-size: 20px;
+    margin-right: 8px;
+}
+ .button{
+    background-color: lightcoral;
+ }
+a::after{
+    content:"";
+    margin-right: 5px;
+}
+
+.div::before{
+    content: "Before the content";
+    display: block;
+    font-weight: bold;
+
+}
+
+h2::before{
+    content: "" ;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.input {
+    width: 150px;
+    height: 20px;
+    background-color: rgb(211, 140, 140);
+}
+
+.span::after{
+    content: "*";color: rgb(233, 37, 37);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+

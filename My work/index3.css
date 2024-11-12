@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* about style */
+.aboutme{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutimg{
+    width: 350px;
+    height: 350px;
+}
+.aboutme h1{
+    padding-bottom: 10px;
+    color: rgb(6,6,40);
+    font-size: xx-large;
+}
+.img{
+    margin-right: 30px;
+}

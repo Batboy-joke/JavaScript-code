@@ -1,0 +1,19 @@
+.header{
+    background-color: aqua;
+    position: fixed;
+}
+
+.header ul{
+    display: flex;
+    justify-content:center;
+}
+
+.header ul li {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.header ul li :hover{
+background-color: red;
+cursor: pointer;
+}

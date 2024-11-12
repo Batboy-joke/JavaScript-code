@@ -1,0 +1,143 @@
+/* stylings for header */
+*{
+    padding: 0;
+    margin: 0;
+}
+#bc{
+    background-size: cover;
+    background-image: url(images/car-7615816_1280.jpg);
+    height: 700px;
+}
+header{
+    background-color: rgb(163, 163, 219);
+    color: #fff;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    /* animation: blink 1s infinite; */
+
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+}
+.navigation li a{
+    /* background-color: rgb(182, 209, 209); */
+    cursor: pointer;
+    /* color: rgb(226, 5, 5); v  rfgb64ttttttre */
+    /* animation: blink 1s infinite; */
+}
+
+/* @keyframes blink {
+    0%{
+        background-color: rgb(211, 7, 126);
+    }
+    50%{
+        background-color: rgb(196, 147, 220);
+    }
+    100%{
+        background-color: rgb(19, 19, 233);
+    }
+} */
+
+/* home section styles */
+.herosection{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.herosection h1{
+    padding-bottom: 10px;
+    color: rgb(6,6,40);
+    font-size: xx-large;
+}
+
+.WELCOME{
+    color: rgb(173, 22, 22);
+}
+
+.herosection button{
+    margin-top: 10px;
+    padding: 10px  20px;
+    background-color: rgb(173, 22, 22);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    /* animation: blink 1s infinite; */
+}
+
+.herosection button:hover{
+    color: rgb(6,6,40);
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+/* about style */
+.aboutme{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px 220px;
+}
+
+
+.aboutimg{
+    width: 350px;
+    height: 350px;
+}
+.aboutme h1{
+    padding-bottom: 10px;
+    color: rgb(6,6,40);
+    font-size: xx-large;
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+    text-align: center;
+}
+
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(171, 182, 182);
+    transform: scale(1.1);
+    color: white;
+    border-radius: 1rem;
+    left: 600px;
+    bottom: 100px;
+    transition: 1s ease-in-out;
+    border: 3px solid rgb(97, 93, 74);
+}
+
+.button:hover{
+    background-color: firebrick;
+    width: 150px;
+}
+
+.aboutme h3{
+    font-size: xx-large;
+    font-weight: 400;
+    color: rgb(6,6,40);
+    margin-bottom: 6px;
+}
+
+.aboutme p{
+    font-weight: 200;
+    color: rgb(6,6,40);
+    font-size: medium;
+}

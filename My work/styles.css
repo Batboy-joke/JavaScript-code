@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-size: 1.srem;
+}
+
+h4{
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 20px;
+}
+
+i{
+    font-size: 1.srem;
+    color: #fff;
+}
+
+p,a{
+    font-size: .9rem;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    margin: 12px 0;
+}
+
+/* header starts here */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #7b73c0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: spx 25px;
+    padding-right: 40px;
+}
+
+.logo-img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#logo-txt{
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    align-items: cover;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    flex: 0 1 685px;
+    margin-left: 40px;
+}
+
+.search-container form{
+    position: relative;
+    width: 100px;
+}
+
+.search-container input{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 200%;
+    background-color: #c4b2d3;
+    border: 1px solid rgba(223, 200, 200, 0.1);
+    padding: 12px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-container i {
+    margin-left: 25px;
+}
+
+
+
+.profile-box{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-left: 25px;
+}
+ 
+/* body container starts here */
+.body-container {
+    display: flex;
+    position: fixed;
+    height: calc(100vh - 60px);
+    top: 60px;
+}
+
+.sidebar {
+    background-color: #7b73c0;
+    padding-top: 10px;
+    width: 240px;
+    overflow-y: scroll;
+}
+
+.sidebar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-items {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.sidebar-items:hover{
+    background-color: #4c4c4c;
+}
+
+.sidebar-items{
+    margin-right: 24px;
+}
