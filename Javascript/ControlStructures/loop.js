@@ -26,3 +26,27 @@ const students = [
 for (let i = 0; i < students.length; i++){
     console.log("Students:", students[i].name, "Grade:", students[i].grade);
 }
+
+const myself = [
+    { name : "Olowo Jomiloju", school : "New Horizons", course : "Web Development"}
+]
+
+for (let i = 0; i < myself.length; i++){
+    console.log("My name is", myself[i].name, "My school is",
+     myself[i].school, "My course is", myself[i].course)
+}
+
+// While loop
+let i = 0;
+while(i < 5){
+    console.log("count is: "+i)
+    i++
+}
+
+const Colour = ["red", "green", "blue", "yellow"]
+
+let c = 0;
+while(c < Colour.length){
+    console.log("color:",Colour[c])
+    c++
+}
