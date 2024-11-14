@@ -1,5 +1,5 @@
 alert("hello jsclass");
-console.log("welcome to my website");
+// console.log("welcome to my website");
 
 // var
 // let
