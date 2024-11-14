@@ -1,6 +1,6 @@
 .button::before {
     content: url(arrow-up-line.png) ;
-    /* color: rgb(29, 29, 48); */
+    color: rgb(29, 29, 48);
     font-size: 20px;
     margin-right: 8px;
 }
