@@ -56,7 +56,7 @@ greet3("Jason", "Full stack dev", "New Horizon")
 
 
 // Arrow Function
-// Arrow functions: a more concise way to write functions in JavaScript. They have a shorter syntax compared to traditional function expressions and do not have their own binding, which makes them particularly useful in certain contexts like array methods and as callback functions.
+// Arrow functions: a more concise way to write functions in JavaScript.They have a shorter syntax compared to traditional function expressions and do not have their own binding, which makes them particularly useful in certain contexts like array methods and as callback functions.
 // They are defined using the => syntax.
 
 // Arrow Function to Welcome Someone into Your Application
@@ -64,7 +64,7 @@ const welcomeUser = (name) => `Welcome to my application, ${name}!`;
 
 console.log(welcomeUser("Yeon")); 
 
-// Arrow Function that Returns the Sum of 3 Numbers
+// Arrow Function that Returns the Sum of 2 Numbers
 const sumOfTwo = (a, b) => a + b;
 
 console.log(sumOfThree(1, 2)); 
