@@ -8,9 +8,31 @@
 <body>
     <div>Welcome To Javascript Couse</div>
 <div>
-    <h1>hello functions</h1>
+    <h1 id="idone">hello functions</h1>
 </div>
-    <script src="./ControlStructures/function.js"></script>
+
+    <label for="name">Name</label>
+    <input type="text" id="name">
+
+    <label for="class">Class</label>
+    <input type="text" id="class">
+
+    <button id="submit"> submit</button>
+
+    <!-- <script src="./ControlStructures/function.js"></script> -->
+    <script>
+        const name = document.getElementById("name")
+        const userclass = document.getElementById("class")
+
+        document.getElementById("submit").addEventListener
+        ("click", ()=>{
+            alert("congrats you have submitted the form")
+        })
+
+        document.getElementById("idone").style.display = "none";
+        alert("congrats you have submitted the form")
+
+    </script>
     
 </body>
 </html>
